@@ -73,3 +73,31 @@ body {
 .sticky + .content {
   padding-top: 60px;
 }
+
+/* Spotify */
+.spotify {
+  color: #379534;
+  font-style: italic;
+  font-family: 'IBM Plex Serif', serif;
+  margin-top: 80px;
+}
+
+.spotify-imgs {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+}
+
+.steps p {
+  background-color: #4d4d4d;
+  text-align: center;
+  padding: 12px 10px;
+  max-width: 75%;
+  border-radius: 5px;
+}
