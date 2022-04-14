@@ -61,7 +61,13 @@ body {
   float: none;
   margin-left: auto;
   margin-right: auto;
-  max-width: 60%;
+  max-width: 70%;
+}
+
+.sm-width {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sticky {
@@ -74,12 +80,16 @@ body {
   padding-top: 60px;
 }
 
+.major-title {
+  margin-top: 5%;
+}
+
 /* Spotify */
 .spotify {
   color: #379534;
   font-style: italic;
   font-family: 'IBM Plex Serif', serif;
-  margin-top: 80px;
+  margin-top: 12%;
 }
 
 .spotify-imgs {
@@ -87,17 +97,49 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
+}
+
+/* .steps {
+  display: flex;
+  justify-content: space-around;
+  height: 10%;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+} */
+
+.float {
+  display: grid;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-left: 2%;
 }
 
 .steps {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  /* grid-template-columns: 30% 30% 30% 30%;
+  max-width: 80%;
+  grid-gap: 2%; */
+}
+
+.column {
+  /* grid-template-columns: 30% 30% 30% 30%; */
+  grid-template-rows: 30% 30% 30% 30%;
+  grid-gap: 1%;
+  /* max-width: 40%; */
+}
+
+.row {
+  grid-template-columns: 30% 30% 30% 30%;
+  max-width: 80%;
+  grid-gap: 2%;
 }
 
 .steps p {
   background-color: #4d4d4d;
   text-align: center;
   padding: 12px 10px;
-  max-width: 75%;
   border-radius: 5px;
 }
