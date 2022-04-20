@@ -148,7 +148,7 @@ body {
   display: grid;
   flex-flow: row;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 50% 50% 50% 50%;
+  grid-template-rows: 10% 10%;
   grid-gap: 1%;
 }
 
@@ -227,4 +227,12 @@ a:active .generalbutton {
 .headerbutton {
   background-color: #eee;
   color: #191919;
+}
+
+/* Tutor Orial */
+.tutor {
+  color: #D3A295;
+  font-style: italic;
+  font-family: 'IBM Plex Serif', serif;
+  margin-top: 12%;
 }
