@@ -169,6 +169,15 @@ body {
   grid-template-rows: 50% 50%;
 }
 
+.three-columns {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  grid-template-rows: 10% 10% 10%;
+  grid-column-gap: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .row {
   grid-template-columns: 30% 30% 30%;
   max-width: 80%;
@@ -231,8 +240,61 @@ a:active .generalbutton {
 
 /* Tutor Orial */
 .tutor {
-  color: #D3A295;
+  color: #DA9F8F;
   font-style: italic;
   font-family: 'IBM Plex Serif', serif;
   margin-top: 12%;
+}
+
+.float-tutor {
+  display: grid;
+  flex-flow: row;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 50% 50%;
+  grid-gap: 4%;
+}
+
+.tutorbutton {
+  background-color: #DA9F8F;
+  text-align: left;
+}
+
+.tutorbutton {
+  background-color: #DA9F8F;
+  text-align: left;
+}
+
+.user1 {
+  background-color: #FFB0B0;
+  text-align: left;
+  font-size: 14px;
+  color: #191919;
+}
+
+.user2 {
+  background-color: #F9FFB0;
+  text-align: left;
+  font-size: 14px;
+  color: #191919;
+}
+
+.user3 {
+  background-color: #D3B0FF;
+  text-align: left;
+  font-size: 14px;
+  color: #191919;
+}
+
+.user4 {
+  background-color: #B0FFD9;
+  text-align: left;
+  font-size: 14px;
+  color: #191919;
+}
+
+.tutor-imgs {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
