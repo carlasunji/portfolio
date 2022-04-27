@@ -112,7 +112,7 @@ body {
 
 
 /* Contact Form */
-form #contact_form .well .form-horizontal {
+/* form #contact_form .well .form-horizontal {
   margin-left: auto;
   margin-right: auto;
 }
@@ -130,7 +130,7 @@ label .col-md-4 .control-label {
   padding: 10px;
   margin: 0 0 20px;
   font-family: 'IBM Plex Mono', monospace;
-}
+} */
 
 
 /* Spotify */
