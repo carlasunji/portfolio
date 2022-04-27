@@ -110,6 +110,29 @@ body {
   margin-top: 5%;
 }
 
+
+/* Contact Form */
+form #contact_form .well .form-horizontal {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label .col-md-4 .control-label {
+  padding-bottom: 5%;
+}
+
+#success_message {
+  display: none;
+}
+
+.form-control {
+  width: 90%;
+  padding: 10px;
+  margin: 0 0 20px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
 /* Spotify */
 .spotify {
   color: #379534;
