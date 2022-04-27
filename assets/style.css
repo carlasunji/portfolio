@@ -28,13 +28,13 @@ body {
 }
 
 .pages a:hover, .social a:hover {
-  background-color: #ddd;
+  background-color: #FA295E;
   color: black;
 }
 
-.pages a:active, .social a:active {
-  background-color: #04AA6D;
-  color: white;
+.pages a.active, .social a.active {
+  background-color: #444;
+  color: $191919;
 }
 
 .pages {
