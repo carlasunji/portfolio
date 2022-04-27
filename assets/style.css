@@ -32,6 +32,11 @@ body {
   color: black;
 }
 
+.pages a:active, .social a:active {
+  background-color: #444;
+  color: $191919;
+}
+
 .pages a.active, .social a.active {
   background-color: #444;
   color: $191919;
