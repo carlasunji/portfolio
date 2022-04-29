@@ -11,14 +11,14 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/Favicon.ico">
 
   <!-- Font: IBM Plex Mono -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet"> -->
 
   <!-- Font: IBM Plex Serif -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -53,7 +53,14 @@
       <h1 class="major-title">Spotify Social</h1>
 
       <!-- Cover Image -->
-      <img class="spotify-imgs" src="assets/spotify-social-1.jpg" alt="Spotify Social">
+      <img id="myImg" class="spotify-imgs" src="assets/spotify-social-1.jpg" alt="Spotify Social">
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
 
       <h2 class="spotify">01 — Project Context</h2>
         <div>
@@ -115,7 +122,14 @@
         </div>
 
         <div class="sm-width">
-          <img class="spotify-imgs" src="assets/spotify-social-2.png" style="width:80%">
+          <img id="myImg2" class="spotify-imgs" src="assets/spotify-social-2.png" style="width:80%">
+        </div>
+
+        <!-- The Modal 2 -->
+        <div id="myModal2" class="modal">
+          <span class="close2">&times;</span>
+          <img class="modal-content" id="img02">
+          <div id="caption"></div>
         </div>
 
       <h2 class="spotify">03 — Ideation</h2>
@@ -130,7 +144,10 @@
             <p class="generalbutton">Comment on songs</p>
           </div>
 
-          <img class="spotify-imgs" src="assets/spotify-social-3.png">
+          <div class="two-columns">
+          <img class="intense spotify-imgs" src="assets/spotify-social-3.png">
+          <img class="intense spotify-imgs" src="assets/spotify-social-3-5.png">
+          </div>
         </div>
 
 
@@ -160,7 +177,7 @@
           </p>
         </div>
 
-      <img class="spotify-imgs" src="assets/spotify-social-4.png">
+      <img class="intense spotify-imgs" src="assets/spotify-social-4.png">
 
       <h2 class="spotify">05 — Final Prototype</h2>
         <div class="sm-width">
@@ -185,6 +202,53 @@
           </div>
         </div>
     </div>
+
+    <!-- w3schools image modal -->
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    </script>
+
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal2');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg2');
+    var modalImg = document.getElementById("img02");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close2")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    </script>
 
 </body>
 
