@@ -145,8 +145,24 @@
           </div>
 
           <div class="two-columns">
-          <img class="intense spotify-imgs" src="assets/spotify-social-3.png">
-          <img class="intense spotify-imgs" src="assets/spotify-social-3-5.png">
+          <img id="myImg3" class="spotify-imgs" src="assets/spotify-social-3.png">
+
+          <!-- The Modal 3 -->
+          <div id="myModal3" class="modal">
+            <span class="close3">&times;</span>
+            <img class="modal-content" id="img03">
+            <div id="caption"></div>
+          </div>
+
+          <img id="myImg3-5" class="spotify-imgs" src="assets/spotify-social-3-5.png">
+
+          <!-- The Modal 3-5 -->
+          <div id="myModal3-5" class="modal">
+            <span class="close3-5">&times;</span>
+            <img class="modal-content" id="img03-5">
+            <div id="caption"></div>
+          </div>
+
           </div>
         </div>
 
@@ -177,12 +193,20 @@
           </p>
         </div>
 
-      <img class="intense spotify-imgs" src="assets/spotify-social-4.png">
+      <img id="myImg4" class="intense spotify-imgs" src="assets/spotify-social-4.png">
+
+      <!-- The Modal 4 -->
+      <div id="myModal4" class="modal">
+        <span class="close4">&times;</span>
+        <img class="modal-content" id="img04">
+        <div id="caption"></div>
+      </div>
+
 
       <h2 class="spotify">05 — Final Prototype</h2>
         <div class="sm-width">
           <!-- Update gif -->
-          <img class="spotify-imgs" src="assets/spotify.gif" style="width:35%">
+          <img class="spotify-gif" src="assets/spotify.gif" alt="Spotify Social prototype">
         </div>
 
       <h2 class="spotify">06 — Reflections</h2>
@@ -203,7 +227,13 @@
         </div>
     </div>
 
+
+
+
     <!-- w3schools image modal -->
+
+
+    <!-- Modal 1 -->
     <script>
     // Get the modal
     var modal = document.getElementById('myModal');
@@ -227,6 +257,8 @@
     }
     </script>
 
+
+    <!-- Modal 2 -->
     <script>
     // Get the modal
     var modal = document.getElementById('myModal2');
@@ -249,6 +281,82 @@
       modal.style.display = "none";
     }
     </script>
+
+
+    <!-- Modal 3 -->
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal3');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg3');
+    var modalImg = document.getElementById("img03");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close3")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    </script>
+
+
+    <!-- Modal 3-5 -->
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal3-5');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg3-5');
+    var modalImg = document.getElementById("img03-5");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close3-5")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    </script>
+
+
+    <!-- Modal 4 -->
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal4');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg4');
+    var modalImg = document.getElementById("img04");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close4")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    </script>
+
 
 </body>
 

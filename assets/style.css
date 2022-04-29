@@ -159,7 +159,15 @@ label .col-md-4 .control-label {
   margin-top: 5%;
 }
 
-.spotify-imgs, .intense {
+.spotify-gif {
+  width: 38%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.spotify-imgs {
   cursor: zoom-in;
 }
 
@@ -167,7 +175,7 @@ label .col-md-4 .control-label {
   /* filter: drop-shadow(3px 3px 6px #379534); */
   /* filter: hue-rotate(45deg); */
   /* filter: brightness(1.2); */
-  filter: blur(2px);
+  filter: blur(1px);
 }
 
 
@@ -199,8 +207,8 @@ label .col-md-4 .control-label {
 .modal-content {
   margin: auto;
   display: block;
-  width: 100%;
-  max-width: calc((100vw - 10%));
+  /* width: 100%; */
+  max-height: calc((100vh - 10%));
 }
 
 /* Caption of Modal Image */
@@ -227,7 +235,7 @@ label .col-md-4 .control-label {
 } */
 
 /* The Close Button */
-.close, .close2 {
+.close, .close2, .close3, .close3-5, .close4 {
   position: absolute;
   top: 15px;
   right: 35px;
