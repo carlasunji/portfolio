@@ -167,11 +167,11 @@ label .col-md-4 .control-label {
   margin-top: 5%;
 }
 
-.spotify-imgs {
+.spotify-imgs, .capstone-imgs, .capstone-gif {
   cursor: zoom-in;
 }
 
-.spotify-imgs:hover {
+.spotify-imgs:hover, .capstone-imgs:hover, .capstone-gif:hover {
   /* filter: drop-shadow(3px 3px 6px #379534); */
   /* filter: hue-rotate(45deg); */
   /* filter: brightness(1.2); */
@@ -212,7 +212,7 @@ label .col-md-4 .control-label {
 }
 
 /* Caption of Modal Image */
-#caption {
+#caption, #caption2, #caption3, #caption3-5, #caption4, #caption5, #caption6 {
   margin: auto;
   display: block;
   width: 80%;
@@ -235,7 +235,7 @@ label .col-md-4 .control-label {
 } */
 
 /* The Close Button */
-.close, .close2, .close3, .close3-5, .close4 {
+.close, .close2, .close3, .close3-5, .close4, .close5 {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -426,6 +426,84 @@ a:active .generalbutton {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Capstone */
+
+.capstone {
+  color: #FF99FC;
+  font-style: italic;
+  font-family: 'IBM Plex Serif', serif;
+  margin-top: 12%;
+  font-weight: 400;
+}
+
+.capstone-imgs {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.capstone-gif {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.capstonebutton {
+  background-color: #4d4d4d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  display: block;
+  height: 15%;
+	width: 60%;
+	border-radius: 10px;
+	text-align: center;
+  padding: 12px 10px;
+}
+
+.capstonetext {
+  margin-left: auto;
+  margin-right: auto;
+	width: 55%;
+}
+
+.capstonesticky {
+  background-color: #FF99FC;
+  color: #191919;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  display: block;
+  height: 15%;
+	width: 48%;
+	border-radius: 5px;
+	text-align: center;
+  font-weight: 500;
+  font-size: 2em;
+  padding: 140px 20px;
+}
+
+.capstonestickysm {
+  background-color: #FF99FC;
+  color: #191919;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  display: block;
+	width: 55%;
+	border-radius: 5px;
+	text-align: center;
+  padding: 60px 40px;
+}
+
+.bold {
+  font-weight: 600;
+  /* color: #FF99FC; */
+  color: #191919;
 }
 
 /* Footer */

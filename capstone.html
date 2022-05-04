@@ -18,7 +18,7 @@
   <!-- Font: IBM Plex Serif -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
     <div id="navbar">
       <div class="pages">
         <a href="https://carlasunji.github.io/portfolio/">Projects</a>
-        <a href="https://carlasunji.github.io/portfolio/about">About</a>
+        <a href="https://carlasunji.github.io/portfolio/about">About me</a>
       </div>
 
       <div class="carla">
@@ -53,24 +53,394 @@
       <h1 class="major-title">Capstone — Untitled WIP</h1>
 
       <!-- Cover Image -->
-      <img class="spotify-imgs" src="assets/project-timeline.png" alt="Capstone Timeline">
+      <img id="myImg" class="capstone-imgs" src="assets/capstone-timeline.jpg" alt="Capstone project timeline">
 
-      <h2 class="spotify">00 — Overview</h2>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+
+
+      <h2 class="capstone">00 — Overview</h2>
       <div class="sm-width">
-        <p>Welcome to my Untitled Capstone project I am currently working on in the MPS Communication Design program. The project is divided into 3 parts: Research, Prototyping, and finally UX/UI Design, and the duration is 16 weeks.
+        <p>Welcome to my Untitled Capstone project I am currently working on in the MPS Communication Design program. The project is divided into 3 parts: Research, Prototyping, and finally UX/UI Design.
         </br></br>
-        My focus is on the topic of organization and through research, exploratory interviews, and extracting insights, I narrowed down what people want when it comes to organizing and tidying up physical spaces.
-        </br></br>
-        Please come back later for more. :)
+        I'm currently working on the final phase. Please come back later for more. :)
         </p>
       </div>
 
-      <!-- <h2 class="spotify">01 — Research</h2>
+      <h2 class="capstone">01 — Project Context</h2>
 
-      <h2 class="spotify">02 — Prototype</h2>
+        <div>
+          <div class="sm-width three-columns">
+              <div class="steps">
+                <p class="headerbutton">Project team</p>
+                <p class="generalbutton">Carla Sunji</p>
+                <p class="headerbutton" style="margin-top: 22%">Timeline</p>
+                <p class="generalbutton">16 weeks [graduate Capstone project in Parsons MPS Communication Design program]</p>
+              </div>
 
-      <h2 class="spotify">03 — UX/UI Design</h2> -->
+              <div class="steps">
+                <p class="headerbutton">My Role</p>
+                <p class="generalbutton">Research</p>
+                <p class="generalbutton">Exploratory interviews</p>
 
+                <p class="generalbutton">Adjacent industry audit</p>
+                <p class="generalbutton">Heuristic analysis</p>
+                <p class="generalbutton">Usability testing</p>
+                <p class="generalbutton">UX/UI design</p>
+              </div>
+
+              <div class="steps">
+                <p class="headerbutton">Challenge</p>
+                <p class="generalbutton">Research my focus area: organizing and tidying up physical spaces // habit formation.</p>
+                <p class="generalbutton">Conduct competitive and analagous audits of existing digital products.</p>
+                <p class="generalbutton">Identify users needs through exploratory interviews and prototype testing.</p>
+                <p class="generalbutton">Create a digital product that will help users form habits around organizing.</p>
+              </div>
+          </div>
+        </div>
+
+
+
+
+      <h2 class="capstone">02 — Research</h2>
+
+      <div class="sm-width">
+        <p>
+          Through exploratory interviews, I wanted to understand people’s behaviors and habits around having systems for organizing and tidying physical spaces as well as digital organization and their impact on mental health.
+        </p>
+
+        <img id="myImg2" class="capstone-gif" src="assets/capstone-research.gif" alt="Research process">
+
+        <!-- The Modal 2 -->
+        <div id="myModal2" class="modal">
+          <span class="close2">&times;</span>
+          <img class="modal-content" id="img02">
+          <div id="caption2"></div>
+        </div>
+
+      </div>
+
+
+      <div class="sm-width">
+
+          <div>
+            <h3 class="capstonetext" style="text-align: center; margin-bottom: 0; margin-top: 10%;">Synthesis of overarching themes</h3>
+            <div class="capstonestickysm">
+              <h3> 01 </h3>
+              <h3 style="margin-bottom: 0;">Frustration and overwhelm</h3>
+            </br>
+              <hr style="height: 2px; border-width: 0; color: #4d4d4d; background-color: #4d4d4d">
+              <p><span class="bold">People feel overwhelmed and anxious</span> when preparing to organize; while organizing;
+                and failing to organize due to being overwhelmed by the process or mess, rearranging things, and even delaying organizing.
+              </p>
+            </div>
+
+            <div class="capstonestickysm">
+              <h3> 02 </h3>
+              <h3 style="margin-bottom: 0;">Routine and time management</h3>
+            </br>
+              <hr style="height: 2px; border-width: 0; color: #4d4d4d; background-color: #4d4d4d">
+              <p><span class="bold">People don’t have daily routines around organizing</span>, and the <span class="bold">duration of organizing depends</span> on levels of motivation,
+                productivity, energy, and disorganization. It can also depend on the task itself being a daily 5-30 minute task or organizing a mess which would take a few hours.
+              </p>
+            </div>
+
+            <div class="capstonestickysm">
+              <h3> 03 </h3>
+              <h3 style="margin-bottom: 0;">Feelings of control and self-care</h3>
+            </br>
+              <hr style="height: 2px; border-width: 0; color: #4d4d4d; background-color: #4d4d4d">
+              <p>When people organize, <span class="bold">they feel a sense of control</span>. There is also <span class="bold">a feeling of relief afterwards</span>
+                which motivates people to take on other tasks.
+              </p>
+            </div>
+
+            <div class="capstonestickysm">
+              <h3> 04 </h3>
+              <h3 style="margin-bottom: 0;">Effects on mental health</h3>
+            </br>
+              <hr style="height: 2px; border-width: 0; color: #4d4d4d; background-color: #4d4d4d">
+              <p><span class="bold">Organizing, purging, and carving out time to organize have positive effects</span> such as being good for your well being and mental health,
+                feeling like a metaphorical weight is lifted, and feeling emotionally and physically lighter.
+              </p>
+            </div>
+
+            <div class="capstonestickysm">
+              <h3> 05 </h3>
+              <h3 style="margin-bottom: 0;">Prompts to organize</h3>
+            </br>
+              <hr style="height: 2px; border-width: 0; color: #4d4d4d; background-color: #4d4d4d">
+              <p><span class="bold">Organizing can be a reaction to something</span> such as mental health (depressive episodes), things no longer serving their function or making sense,
+                things not being used or no longer needed, visual clutter, a need to remember where things are, or an accumulation of things that need to be purged.
+              </p>
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- <div>
+          <h3 class="capstonetext" style="text-align: center; margin-bottom: 0;">Synthesis of overarching themes</h3>
+          <p class="capstonebutton" style="margin-top: 5%;">Frustrations and overwhelm</p>
+            <p class="capstonetext"><span class="bold">People feel overwhelmed and anxious</span> when preparing to organize; while organizing;
+              and failing to organize due to being overwhelmed by the process or mess, rearranging things, and even delaying organizing.
+            </p>
+
+          <p class="capstonebutton">Routine and time management</p>
+            <p class="capstonetext"><span class="bold">People don’t have daily routines around organizing</span>, and the <span class="bold">duration of organizing depends</span> on levels of motivation,
+              productivity, energy, and disorganization. It can also depend on the task itself being a daily 5-30 minute task or organizing a mess which would take a few hours.
+            </p>
+
+          <p class="capstonebutton">Feelings of control and self-care</p>
+            <p class="capstonetext"> When people organize, <span class="bold">they feel a sense of control</span>. There is also <span class="bold">a feeling of relief afterwards</span>
+              which motivates people to take on other tasks.
+            </p>
+
+          <p class="capstonebutton">Effects on mental health</p>
+            <p class="capstonetext"><span class="bold">Organizing, purging, and carving out time to organize have positive effects</span> such as being good for your well being and mental health,
+              feeling like a metaphorical weight is lifted, and feeling emotionally and physically lighter.
+            </p>
+
+          <p class="capstonebutton">Prompts to organize</p>
+            <p class="capstonetext"><span class="bold">Organizing can be a reaction to something</span> such as mental health (depressive episodes), things no longer serving their function or making sense,
+              things not being used or no longer needed, visual clutter, a need to remember where things are, or an accumulation of things that need to be purged.
+            </p>
+        </div> -->
+
+
+
+        </br></br>
+        <img style="margin-top: 10%;" id="myImg3" class="capstone-imgs" src="assets/capstone-research-1.jpg" alt="Exploratory interviews (via Zoom) and some quotes">
+
+        <!-- The Modal 3 -->
+        <div id="myModal3" class="modal">
+          <span class="close3">&times;</span>
+          <img class="modal-content" id="img03">
+          <div id="caption3"></div>
+        </div>
+
+
+        <h3 class="capstonetext" style="text-align: center; margin-bottom: 0; margin-top: 15%;">Actionable "how might we" statement</h3>
+
+        <div>
+          <p class="capstonesticky">How might we get people to build a habit around organizing?</p>
+        </div>
+
+      </div>
+
+
+
+
+      <h2 class="capstone">03 — Prototype</h2>
+
+      <div class="sm-width">
+        <p>Based on my "how might we" statement, I ideated with my classmates on possible ideas for my digital product and its focus area.
+          After several ideation sessions, I grouped and synthesized the sketches into categories. 5 low fidelity prototypes were created from the
+          ideas that repeated the most.
+        </p>
+
+        <img style="margin-top: 10%;" id="myImg4" class="capstone-imgs" src="assets/capstone-ideation.jpg" alt="Ideation session brainstorming and categorizations">
+
+        <!-- The Modal 4 -->
+        <div id="myModal4" class="modal">
+          <span class="close4">&times;</span>
+          <img class="modal-content" id="img04">
+          <div id="caption4"></div>
+        </div>
+
+        <img style="margin-top: 10%;" id="myImg5" class="capstone-imgs" src="assets/capstone-low-fi.jpg" alt="Low fidelity prototypes">
+
+        <!-- The Modal 5 -->
+        <div id="myModal5" class="modal">
+          <span class="close5">&times;</span>
+          <img class="modal-content" id="img05">
+          <div id="caption5"></div>
+        </div>
+
+      </div>
+
+      <div class="sm-width" style="margin-top: 10%;">
+        <p>After testing these 5 lo-fi prototypes with 4 users, I combined a few features and narrowed them down to 3 prototypes to take into middle fidelity.
+          These 3 mid-fi prototypes were A/B tested on 4 users to understand which variations of the features were preferred.
+        </p>
+
+        <img style="margin-top: 10%;" id="myImg6" class="capstone-imgs" src="assets/capstone-mid-fi.jpg" alt="Middle fidelity prototypes">
+
+        <!-- The Modal 6 -->
+        <div id="myModal6" class="modal">
+          <span class="close6">&times;</span>
+          <img class="modal-content" id="img06">
+          <div id="caption6"></div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- <h2 class="capstone">04 — UX/UI Design</h2> -->
+
+
+
+
+      <!-- w3schools image modal -->
+
+
+      <!-- Modal 1 -->
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal');
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      </script>
+
+
+
+      <!-- Modal 2 -->
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal2');
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg2');
+      var modalImg = document.getElementById("img02");
+      var captionText = document.getElementById("caption2");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close2")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      </script>
+
+
+      <!-- Modal 3 -->
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal3');
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg3');
+      var modalImg = document.getElementById("img03");
+      var captionText = document.getElementById("caption3");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close3")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      </script>
+
+
+      <!-- Modal 4 -->
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal4');
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg4');
+      var modalImg = document.getElementById("img04");
+      var captionText = document.getElementById("caption4");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close4")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      </script>
+
+
+      <!-- Modal 5 -->
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal5');
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg5');
+      var modalImg = document.getElementById("img05");
+      var captionText = document.getElementById("caption5");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close5")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      </script>
+
+
+      <!-- Modal 6 -->
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal6');
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg6');
+      var modalImg = document.getElementById("img06");
+      var captionText = document.getElementById("caption6");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close6")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      </script>
 </body>
 
 <footer class="site-footer" data-hover-hint="footer">
