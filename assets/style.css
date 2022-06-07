@@ -9,7 +9,6 @@ body {
 }
 
 
-
 #navbar {
   overflow: hidden;
   background-color: #333;
@@ -21,6 +20,7 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 50px;
+  /* z-index: 2; */
 }
 
 #navbar a {
@@ -39,7 +39,7 @@ body {
 
 .pages a:active, .social a:active {
   background-color: #444;
-  color: $191919;
+  color: #191919;
 }
 
 .pages a.active, .social a.active {
@@ -92,12 +92,37 @@ body {
   max-width: 65%;
 }
 
-.thumbnails img{
+.thumbnails img {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  border-radius: 5px;
+}
+
+.thumbnails {
+  position: relative;
+  text-align: left;
+  color: #eeeeee;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 33%;
+  background: rgba(25, 25, 25, 0.7);
+  padding-left: 16px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-right: 16px;
+  border-top-right-radius: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .sm-width {
@@ -148,7 +173,7 @@ label .col-md-4 .control-label {
   color: #379534;
   font-style: italic;
   font-family: 'IBM Plex Serif', serif;
-  margin-top: 12%;
+  margin-top: 20%;
 }
 
 .spotify-imgs {
@@ -167,26 +192,28 @@ label .col-md-4 .control-label {
   margin-top: 5%;
 }
 
-.spotify-imgs, .capstone-imgs, .capstone-gif {
+/* .spotify-imgs, .capstone-imgs, .capstone-gif {
   cursor: zoom-in;
-}
+} */
 
 .spotify-imgs:hover, .capstone-imgs:hover, .capstone-gif:hover {
   /* filter: drop-shadow(3px 3px 6px #379534); */
   /* filter: hue-rotate(45deg); */
   /* filter: brightness(1.2); */
   filter: blur(1px);
+  cursor: zoom-in;
 }
 
 
 /* w3schools modal */
 #myImg {
   border-radius: 5px;
-  cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {
+  opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
@@ -372,7 +399,7 @@ a:active .generalbutton {
   color: #DA9F8F;
   font-style: italic;
   font-family: 'IBM Plex Serif', serif;
-  margin-top: 12%;
+  margin-top: 20%;
 }
 
 .float-tutor {
@@ -443,6 +470,7 @@ a:active .generalbutton {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
 }
 
 .capstone-img {
