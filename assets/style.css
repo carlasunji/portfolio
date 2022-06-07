@@ -505,6 +505,9 @@ a:active .generalbutton {
   margin-left: auto;
   margin-right: auto;
 	width: 55%;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20%;
 }
 
 .capstonesticky {
@@ -521,6 +524,16 @@ a:active .generalbutton {
   font-weight: 500;
   font-size: 2em;
   padding: 140px 20px;
+}
+
+.two-column-float {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  grid-gap: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
 
 .capstonestickysm {
