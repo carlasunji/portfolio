@@ -8,7 +8,6 @@ body {
   margin: 0;
 }
 
-
 #navbar {
   overflow: hidden;
   background-color: #333;
@@ -489,6 +488,13 @@ a:active .generalbutton {
   margin-right: auto;
 }
 
+.capstone-research {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+}
+
 .capstonebutton {
   background-color: #4d4d4d;
   margin-left: auto;
@@ -531,10 +537,58 @@ a:active .generalbutton {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
-  grid-gap: 1%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+}
+
+.three-columns-ei {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 2%;
+  grid-row-gap: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15%;
+}
+
+.ei-avatars {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-bottom: 8%;
+}
+
+.mariabutton {
+  background-color: #93E396;
+  color: #191919;
+}
+
+.antoinettebutton {
+  background-color: #FFB0B0;
+  color: #191919;
+}
+
+.jenanbutton {
+  background-color: #FFE5B4;
+  color: #191919;
+}
+
+.nourbutton {
+  background-color: #B1D0FF;
+  color: #191919;
+}
+
+.nadinebutton {
+  background-color: #EABFFF;
+  color: #191919;
+}
+
+.karenbutton {
+  background-color: #F3F2F2;
+  color: #191919;
 }
 
 .capstonestickysm {
@@ -544,11 +598,27 @@ a:active .generalbutton {
   margin-right: auto;
   margin-top: 5%;
   display: block;
-	width: 55%;
+	width: 48%;
 	border-radius: 5px;
 	text-align: center;
   padding: 60px 40px;
 }
+
+/* .capstonesticky {
+  background-color: #FF99FC;
+  color: #191919;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  display: block;
+  height: 15%;
+	width: 48%;
+	border-radius: 5px;
+	text-align: center;
+  font-weight: 500;
+  font-size: 2em;
+  padding: 140px 20px;
+} */
 
 .bold {
   font-weight: 600;
