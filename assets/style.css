@@ -553,6 +553,60 @@ a:active .generalbutton {
   margin-bottom: 15%;
 }
 
+.columns-ei {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 2%;
+  grid-row-gap: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15%;
+}
+
+#container-proto {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.proto-a {
+ grid-column-start: 1;
+}
+
+.proto-b {
+  grid-column-start: 3;
+  margin-top: 80%;
+}
+
+.proto-c {
+  grid-column-start: 5;
+  margin-top: 160%;
+}
+
+.proto-d {
+  grid-column-start: 7;
+  margin-top: 240%;
+}
+
+.proto-e {
+  grid-column-start: 9;
+  margin-top: 320%;
+}
+
+.proto {
+  align-self: center;
+}
+
+.proto-a img, .proto-b img, .proto-c img, .proto-d img, .proto-e img {
+  width: 300%;
+  border-radius: 5px;
+}
+
 .ei-avatars {
   width: 90%;
   margin-left: auto;
@@ -603,22 +657,6 @@ a:active .generalbutton {
 	text-align: center;
   padding: 60px 40px;
 }
-
-/* .capstonesticky {
-  background-color: #FF99FC;
-  color: #191919;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  display: block;
-  height: 15%;
-	width: 48%;
-	border-radius: 5px;
-	text-align: center;
-  font-weight: 500;
-  font-size: 2em;
-  padding: 140px 20px;
-} */
 
 .bold {
   font-weight: 600;
