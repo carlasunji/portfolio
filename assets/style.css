@@ -564,6 +564,33 @@ a:active .generalbutton {
   margin-bottom: 15%;
 }
 
+.four-columns-lofi {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  grid-column-gap: 2%;
+  grid-row-gap: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15%;
+  justify-content: center;
+}
+
+.maudbutton {
+  background-color: #BA82E5;
+  color: #191919;
+}
+
+.sypbutton {
+  background-color: #6BA1E5;
+  color: #191919;
+}
+
+.jananebutton {
+  background-color: #C4C4C4;
+  color: #191919;
+}
+
 #container-proto {
   display: grid;
   grid-template-columns: repeat(11, 1fr);
@@ -598,12 +625,31 @@ a:active .generalbutton {
   margin-top: 320%;
 }
 
+.proto-aa {
+  grid-column-start: 1;
+}
+
+.proto-bb {
+  grid-column-start: 4;
+  margin-top: 200%;
+}
+
+.proto-cc {
+  grid-column-start: 7;
+  margin-top: 400%;
+}
+
 .proto {
   align-self: center;
 }
 
 .proto-a img, .proto-b img, .proto-c img, .proto-d img, .proto-e img {
   width: 300%;
+  border-radius: 5px;
+}
+
+.proto-aa img, .proto-bb img, .proto-cc img {
+  width: 500%;
   border-radius: 5px;
 }
 
