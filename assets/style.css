@@ -196,7 +196,7 @@ label .col-md-4 .control-label {
   cursor: zoom-in;
 } */
 
-.spotify-imgs:hover, .capstone-imgs:hover, .capstone-gif:hover, .capstone-research:hover, #myImg9:hover, #myImg10:hover, #myImg11:hover, #myImg12:hover, #myImg13:hover,
+.spotify-imgs:hover, .tutor-imgs:hover, .capstone-imgs:hover, .capstone-gif:hover, .capstone-research:hover, #myImg9:hover, #myImg10:hover, #myImg11:hover, #myImg12:hover, #myImg13:hover,
 #myImg15:hover, #myImg16:hover, #myImg17:hover {
   /* filter: drop-shadow(3px 3px 6px #379534); */
   /* filter: hue-rotate(45deg); */
@@ -456,6 +456,7 @@ a:active .generalbutton {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  /* margin-top: 5%; */
 }
 
 /* Capstone */
