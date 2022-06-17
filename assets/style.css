@@ -196,7 +196,8 @@ label .col-md-4 .control-label {
   cursor: zoom-in;
 } */
 
-.spotify-imgs:hover, .capstone-imgs:hover, .capstone-gif:hover {
+.spotify-imgs:hover, .capstone-imgs:hover, .capstone-gif:hover, .capstone-research:hover, #myImg9:hover, #myImg10:hover, #myImg11:hover, #myImg12:hover, #myImg13:hover,
+#myImg15:hover, #myImg16:hover, #myImg17:hover {
   /* filter: drop-shadow(3px 3px 6px #379534); */
   /* filter: hue-rotate(45deg); */
   /* filter: brightness(1.2); */
@@ -239,7 +240,8 @@ label .col-md-4 .control-label {
 }
 
 /* Caption of Modal Image */
-#caption, #caption2, #caption3, #caption3-5, #caption4, #caption5, #caption6 {
+#caption, #caption2, #caption3, #caption3-5, #caption4, #caption5, #caption6, #caption7, #caption8, #caption9, #caption10, #caption11, #caption12, #caption13, #caption14,
+#caption15, #caption16, #caption17, #caption18, #caption19, #caption20 {
   margin: auto;
   display: block;
   width: 80%;
@@ -262,7 +264,8 @@ label .col-md-4 .control-label {
 } */
 
 /* The Close Button */
-.close, .close2, .close3, .close3-5, .close4, .close5 {
+.close, .close2, .close3, .close3-5, .close4, .close5, .close6, .close7, .close8, .close9, .close10, .close11, .close12, .close13, .close14, .close15, .close16, .close17,
+.close18, .close19, .close20 {
   position: absolute;
   top: 15px;
   right: 35px;
