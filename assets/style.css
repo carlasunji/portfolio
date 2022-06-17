@@ -639,6 +639,22 @@ a:active .generalbutton {
   margin-top: 400%;
 }
 
+.proto-oo, .proto-ooo {
+  grid-column-start: 1;
+}
+
+.proto-xx, .proto-xxx {
+  grid-column-start: 7;
+}
+
+.proto-oo img, .proto-xxx img {
+  width: 500%;
+}
+
+.proto-xx img, .proto-ooo img {
+  width: 450%;
+}
+
 .proto {
   align-self: center;
 }
