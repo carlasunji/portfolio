@@ -6,6 +6,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/Favicon.ico">
@@ -24,7 +25,7 @@
 
 <body>
 
-    <div id="navbar" style="z-index: 2;">
+    <div class="navbar" id="myTopnav" style="z-index: 2;">
       <div class="pages">
         <a href="https://carlasunji.github.io/portfolio/">Projects</a>
         <a href="https://carlasunji.github.io/portfolio/about">About me</a>
@@ -46,9 +47,24 @@
 
         <!-- Email -->
         <a href="mailto:carlasunji@gmail.com" class="fa fa-envelope"></a>
-      </div>
 
+        <!-- hamburger menu -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
 
     <div class="container">
       <div>
@@ -72,8 +88,21 @@
 
 </body>
 
-<footer class="site-footer" data-hover-hint="footer">
-  <div class="footer-text">
+<footer class="site-footer">
+  <div class="social">
+    <!-- Behance Link -->
+    <a href="https://www.behance.net/carlasunji" class="fa fa-behance" target="_blank"></a>
 
+    <!-- LinkedIn Link -->
+    <a href="https://www.linkedin.com/in/carlasunji/" class="fa fa-linkedin" target="_blank"></a>
+
+    <!-- Instagram Link -->
+    <a href="https://www.instagram.com/carlasunji/" class="fa fa-instagram" target="_blank"></a>
+
+    <!-- Email -->
+    <a href="mailto:carlasunji@gmail.com" class="fa fa-envelope"></a>
   </div>
+
+  <p class="copyright">Copyright © 2022 Carla Sunji - All Rights Reserved.
+  </p>
 </footer>
