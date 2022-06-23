@@ -768,7 +768,11 @@ a:active .generalbutton {
     max-width: 100vw;
     position: fixed;
   }
-  .navbar .social {display: none;}
+
+  .navbar .social {
+    display: none;
+  }
+
   .navbar a.icon {
     float: right;
     display: block;
@@ -794,11 +798,48 @@ a:active .generalbutton {
     max-width: 70%;
   }
 
-  p {
+  p, ul {
     font-size: 18px;
   }
 
-  .capstone {
+  /* GRIDS */
+  .steps {
+    margin-top: 20%;
+  }
+
+  .two-column-float {
+    display: block;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  .two-columns, .three-columns {
+    display: block;
+    max-width: 80%;
+  }
+
+  .four-columns-lofi {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+  }
+
+  .grid {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .float  {
+    display: block;
+  }
+
+  .row {
+    display: block;
+  }
+
+  /* CAPSTONE */
+  .capstone, .spotify {
     font-weight: bold;
     font-size: 28px;
   }
@@ -818,22 +859,6 @@ a:active .generalbutton {
     padding: 100px 20px;
   }
 
-  .two-column-float {
-    display: block;
-    padding-top: 15%;
-    padding-bottom: 15%;
-  }
-
-  .three-columns {
-    display: block;
-    max-width: 80%;
-  }
-
-  .four-columns-lofi {
-    grid-template-columns: repeat(2, 1fr);
-    width: 80%;
-  }
-
   #container-proto {
     grid-row-gap: 2%;
   }
@@ -844,8 +869,27 @@ a:active .generalbutton {
     width: 300%;
   }
 
-  .steps {
-    margin-top: 20%;
+  .proto-aa, .proto-bb, .proto-cc {
+    grid-column-start: 2;
+    margin-top: 10%;
+  }
+
+  .proto-aa img, .proto-bb img, .proto-cc img {
+    width: 900%;
+  }
+
+  .proto-oo, .proto-ooo, .proto-xx, .proto-xxx {
+    grid-column-start: 2;
+    width: 200%;
+  }
+
+  /* SPOTIFY */
+  .spotify-gif {
+    width: 80%;
+  }
+
+  .site-footer {
+    padding-bottom: 10%;
   }
 
   .site-footer .social {
@@ -861,12 +905,16 @@ a:active .generalbutton {
 }
 
 @media screen and (max-width: 600px) {
-  .navbar.responsive {position: relative;}
+  .navbar.responsive {
+    position: relative;
+  }
+
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .navbar.responsive a {
     float: none;
     display: block;
