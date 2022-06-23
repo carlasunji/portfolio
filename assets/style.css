@@ -838,12 +838,12 @@ a:active .generalbutton {
     display: block;
   }
 
-  /* CAPSTONE */
-  .capstone, .spotify {
+  .capstone, .spotify, .tutor {
     font-weight: bold;
     font-size: 28px;
   }
 
+  /* CAPSTONE */
   .capstonetext {
     font-size: 22px;
     width: 70%;
@@ -886,6 +886,24 @@ a:active .generalbutton {
   /* SPOTIFY */
   .spotify-gif {
     width: 80%;
+  }
+
+  /* TUTOR */
+  .float-tutor {
+    display: block;
+    width: 70%;
+  }
+
+  .tutor-sp-ab {
+    margin-top: 10%;
+  }
+
+  .user1, .user2, .user3, .user4 {
+    font-size: 18px;
+  }
+
+  .tutor-imgs {
+    margin-top: 5%;
   }
 
   .site-footer {
