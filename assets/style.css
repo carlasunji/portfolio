@@ -111,7 +111,11 @@ body {
   color: #eeeeee;
 }
 
-.bottom-left {
+.top {
+  margin-top: 10%;
+}
+
+/* .bottom-left {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -122,6 +126,11 @@ body {
   padding-bottom: 15px;
   padding-right: 16px;
   border-top-right-radius: 10px;
+} */
+
+.hometitles {
+  margin-top: 1.5%;
+  margin-bottom: 1%;
 }
 
 h3 {
