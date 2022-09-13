@@ -340,6 +340,13 @@ label .col-md-4 .control-label {
   margin-right: auto;
 }
 
+.two-home {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .gap {
   margin-top: 5%;
   grid-gap: 3%;
@@ -768,6 +775,25 @@ a:active .generalbutton {
   margin-right: auto;
   margin-top: 5%;
 }
+
+
+/* The Flying Saucer */
+.flying {
+  color: #ffffff;
+  font-style: italic;
+  font-family: 'IBM Plex Serif', serif;
+  margin-top: 20%;
+}
+
+.flying-imgs {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+
 
 /* Footer */
 .site-footer {
